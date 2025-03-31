@@ -1,0 +1,88 @@
+/* 
+    3 ways
+    internal 
+        when u erite css within html file but not in tags it has a seperate place in that file where u can write all the styling (style tag in head) (small project)
+    inline css (worst way) (highest priority)
+        where u write css within html tags (style attribute) (quick fixes)
+    external (best way) (least priority)
+        u make a entirely diff file in this (.css file)
+*/
+
+/* 
+    internal people (close but not family)
+    inline people (family memebers)
+    external people (unknown)
+*/
+/* 
+body{
+    background-color: red;
+    color: yellow;
+} */
+
+/* selector{
+    property : value
+} */
+
+/* selector
+    element target all elements - u give tag names and it will select all the rags matching the name
+    class
+    id
+
+    attribute
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* element selector */
+#first{
+    color: green;
+}
+
+.odd{
+    color: blue;
+}
+
+h1{
+    color: red;
+}
+
+#rishi{
+    color: bisque;
+}
+
+h1[name="rishi"]{
+    color: aqua;
+}
+
+#first{
+    color: pink;
+}
+
+.odd{
+    color: violet;
+}
+
+
+h1{
+    color: brown;
+}
+
+
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 10% 10% 10% 10%;
+    background-color: black;
+}
+
+
+/* priority */
+/* what came later / overriding */
+
+
+
+ 
