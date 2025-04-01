@@ -14,10 +14,11 @@ h1, h2, p{
     border: 2px solid red;
     /* padding: 10px; */
     /* height: 75px; */
-    width: 200px;
+    width: 500px;
 }
 
 span{
     border: 2px solid green;
-    width: 200px;
+    width: 100px;
+    display: inline-block;
 }
