@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.mainContainer{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid blue; */
+    padding: 0 7rem;
+}
+
+header{
+    /* border: 2px solid violet; */
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoContainer{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 60%;
+}
+
+.locationAndSearchContainer{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationAndSearchWrapper{
+    height: 60%;
+    border: .5px solid rgba(128, 128, 128, 0.649);
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: .5px .5px 15px rgba(128, 128, 128, 0.407);
+}
+
+select{
+    width: 40%;
+    /* padding: .6rem; */
+    height: 50%;
+    border: none;
+    outline: none;
+
+}
+
+input{
+    width: 40%;
+    padding: .6rem;
+    height: 50%;
+    border: none;
+    outline: none;
+    border-left: 1px solid black;
+}
+
+.loginAndSignupButtonContainer{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+}
+
+main{
+    /* border: 2px solid violet; */
+    height: 88%;
+}
+
+.mainSectionTabContainer{
+    /* border: 2px solid green; */
+    height: 15%;
+    display: flex;
+}
+
+.tab{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tab:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.048);
+}
+
+#tab1{
+    color: rgb(239, 79, 95);
+    border-bottom: 2px solid rgb(239, 79, 95);
+}
+
+.tab img{
+    height: 40%;
+}
+
+.tab p{
+    font-size: 1.5rem;
+}
+
+.collectionContainer{
+    /* border: 2px solid green; */
+    height: 85%;
+}
+
+.collectionHeadingContainer{
+    /* border: 2px solid blue; */
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.collectionHeadingContainer h2{
+    font-size: 2.5rem;
+}
+
+.collectionCrouselContainer{
+    /* border: 2px solid blue; */
+    height: 85%;
+}
+
+.carouselContainerText{
+    /* border: 2px solid red; */
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.carouselContainerText p{
+    color: grey;
+    font-size: 1rem;
+}
+
+.carouselContainerCardContainer{
+    /* border: 2px solid red; */
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carouselCardContainer{
+    /* border: 2px solid green; */
+    height: 90%;
+    width: 22%;
+}
+
+.carouselCardContainer img{
+    height: 100%;
+    width: 100%;
+}
